@@ -1,6 +1,6 @@
 """All site copy in English. Same keys as `copy_pt.py`."""
 
-VERSION = "1.0"
+VERSION = "1.1"
 # Data da versao publicada. Atualize junto com VERSION: uma data velha
 # no hero diz o contrario do que a linha existe para dizer.
 RELEASE = "3 September 2026"

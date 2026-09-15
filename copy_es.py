@@ -14,7 +14,7 @@ El español es neutro, sin regionalismos: el público va de México a
 Argentina y "ordenador" o "computadora" delatan de dónde salió el texto.
 """
 
-VERSION = "1.0"
+VERSION = "1.1"
 RELEASE = "3 de septiembre de 2026"
 UPDATED = "21 de agosto de 2026"
 

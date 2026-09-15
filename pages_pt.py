@@ -268,6 +268,24 @@ P = {
     "wn_lede": "Cada versão e o que ela trouxe. As correções que valem nota "
                "estão aqui também.",
     "wn_releases": [
+        ("1.1", "15 de setembro de 2026", "Direto para o DaVinci Resolve", [
+            "Novo item no menu Exportar: <strong>Enviar para o DaVinci "
+            "Resolve</strong>. Com o Resolve aberto, a timeline é montada "
+            "dentro do projeto que você escolher, na raiz do Media Pool: "
+            "clipes linkados, uma faixa por câmera, gravadores embaixo, cores "
+            "da triagem aplicadas e projeto salvo. Sem XML no meio.",
+            "Gravadores poly-WAV (MixPre, Zoom F-series) saem com cada canal "
+            "na sua própria faixa, com o nome do canal gravado no arquivo.",
+            "Timecode calibrado pelo áudio: em diárias com jam sync, o motor "
+            "mede se o TC dos aparelhos concorda com o som e passa a usá-lo "
+            "para posicionar o que não tem fala em comum, como B-roll.",
+            "Correções de fonte: proxies (SUB, Proxy, PRXY) reconhecidos, "
+            "estrutura de cartão com duas câmeras em pastas CLIP separadas "
+            "não funde mais as câmeras, gravador identificado pelo serial.",
+            "Ativação de licença corrigida (o 1.0.2 saía sem certificados) e "
+            "<code>Sincou --diagnostico</code> no Terminal para suporte.",
+            "Requisito de sistema corrigido: macOS 13 Ventura ou mais novo.",
+        ]),
         ("1.0", "21 de agosto de 2026", "Primeira versão pública", [
             "Sincronização por áudio em dois estágios: envelope de ataques "
             "sonoros para achar o alinhamento e refino por correlação de fase "

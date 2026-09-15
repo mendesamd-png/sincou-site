@@ -9,7 +9,7 @@ caractere fora do ASCII vira percent-encoding no navegador e fica ilegível
 quando alguém cola o link.
 """
 
-VERSION = "1.0"
+VERSION = "1.1"
 # Data da versao publicada. Atualize junto com VERSION: uma data velha
 # no hero diz o contrario do que a linha existe para dizer.
 RELEASE = "3 de setembro de 2026"

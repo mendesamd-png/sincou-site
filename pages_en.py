@@ -267,6 +267,24 @@ P = {
     "wn_lede": "Each version and what it brought. Fixes worth noting are here "
                "too.",
     "wn_releases": [
+        ("1.1", "September 15, 2026", "Straight into DaVinci Resolve", [
+            "New Export menu item: <strong>Send to DaVinci Resolve</strong>. "
+            "With Resolve open, the timeline is built inside the project you "
+            "pick, at the Media Pool root: linked clips, one track per camera, "
+            "recorders below, triage colors applied, project saved. No XML in "
+            "between.",
+            "Poly-WAV recorders (MixPre, Zoom F-series) come out with each "
+            "channel on its own track, named after the channel in the file.",
+            "Audio-calibrated timecode: on jam-synced shoots the engine "
+            "measures whether the devices' TC agrees with the sound, then uses "
+            "it to place clips with no shared audio, such as B-roll.",
+            "Source fixes: proxies (SUB, Proxy, PRXY) recognized, two-camera "
+            "card structures with separate CLIP folders no longer merge the "
+            "cameras, recorders identified by serial number.",
+            "License activation fixed (1.0.2 shipped without certificates) and "
+            "<code>Sincou --diagnostico</code> in Terminal for support.",
+            "System requirement corrected: macOS 13 Ventura or newer.",
+        ]),
         ("1.0", "August 21, 2026", "First public release", [
             "Two-stage audio sync: an onset envelope to find the alignment and "
             "phase-correlation refinement to land on the millisecond.",
