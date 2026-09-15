@@ -10,6 +10,9 @@ from __future__ import annotations
 from typing import Optional
 
 SITE = "https://sincou.com.br"
+# a imagem de compartilhamento (WhatsApp, iMessage, Slack, LinkedIn) sai de
+# tools/make_og.py, uma por idioma; sem og:image o link chega como texto pelado
+OG_LOCALE = {"pt": "pt_BR", "en": "en_US", "es": "es_ES"}
 
 # Prefixo de TODO caminho interno. O GitHub Pages serve um repositorio de
 # projeto sob /nome-do-repo/, entao um href="/como-funciona/" cai fora do
@@ -314,6 +317,18 @@ def head(title: str, desc: str, lang: str, path: str,
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{SITE}{path}">
+<meta property="og:site_name" content="Sincou">
+<meta property="og:locale" content="{OG_LOCALE.get(lang, "pt_BR")}">
+<meta property="og:image" content="{SITE}/img/og-{lang}.png">
+<meta property="og:image:secure_url" content="{SITE}/img/og-{lang}.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{title}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{SITE}/img/og-{lang}.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Onest:wght@300;400;500;600;700&display=swap">
