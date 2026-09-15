@@ -285,6 +285,15 @@ P = {
     "wn_lede": "Cada versión y lo que trajo. Las correcciones que merecen "
                "nota también están aquí.",
     "wn_releases": [
+        ("1.1.1", "15 de septiembre de 2026", "Abrir en Premiere Pro", [
+            "Nuevo elemento del menú Exportar: <strong>Abrir en Premiere "
+            "Pro</strong>. Guarda el XML donde elijas y Premiere lo abre al "
+            "instante, convirtiéndolo en un proyecto nuevo con la línea de "
+            "tiempo sincronizada y el material vinculado. El proyecto nace "
+            "junto al XML.",
+            "Con más de un Premiere instalado, el botón usa la versión "
+            "numerada más reciente; la Beta solo si es la única.",
+        ]),
         ("1.1", "15 de septiembre de 2026", "Directo a DaVinci Resolve", [
             "Nuevo elemento del menú Exportar: <strong>Enviar a DaVinci "
             "Resolve</strong>. Con Resolve abierto, la línea de tiempo se arma "

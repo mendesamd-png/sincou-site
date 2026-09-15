@@ -470,6 +470,10 @@ details p { padding-bottom: 24px; color: var(--ink-soft); max-width: var(--measu
     <p class="lede">Each version and what it brought. Fixes worth noting are here too.</p>
   </div>
   <div class="rel glass">
+  <div class="rel-head"><span class="rel-v">1.1.1</span>
+    <span class="rel-date">September 15, 2026</span></div>
+  <h3>Open in Premiere Pro</h3><ul><li>New Export menu item: <strong>Open in Premiere Pro</strong>. Saves the XML where you choose and Premiere opens it right away, converting it into a new project with the synced timeline and media linked. The project is created next to the XML.</li><li>With more than one Premiere installed, the button uses the newest numbered version; the Beta only if it is the only one.</li></ul>
+</div><div class="rel glass">
   <div class="rel-head"><span class="rel-v">1.1</span>
     <span class="rel-date">September 15, 2026</span></div>
   <h3>Straight into DaVinci Resolve</h3><ul><li>New Export menu item: <strong>Send to DaVinci Resolve</strong>. With Resolve open, the timeline is built inside the project you pick, at the Media Pool root: linked clips, one track per camera, recorders below, triage colors applied, project saved. No XML in between.</li><li>Poly-WAV recorders (MixPre, Zoom F-series) come out with each channel on its own track, named after the channel in the file.</li><li>Audio-calibrated timecode: on jam-synced shoots the engine measures whether the devices' TC agrees with the sound, then uses it to place clips with no shared audio, such as B-roll.</li><li>Source fixes: proxies (SUB, Proxy, PRXY) recognized, two-camera card structures with separate CLIP folders no longer merge the cameras, recorders identified by serial number.</li><li>License activation fixed (1.0.2 shipped without certificates) and <code>Sincou --diagnostico</code> in Terminal for support.</li><li>System requirement corrected: macOS 13 Ventura or newer.</li></ul>

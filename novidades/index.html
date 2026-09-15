@@ -470,6 +470,10 @@ details p { padding-bottom: 24px; color: var(--ink-soft); max-width: var(--measu
     <p class="lede">Cada versão e o que ela trouxe. As correções que valem nota estão aqui também.</p>
   </div>
   <div class="rel glass">
+  <div class="rel-head"><span class="rel-v">1.1.1</span>
+    <span class="rel-date">15 de setembro de 2026</span></div>
+  <h3>Abrir no Premiere Pro</h3><ul><li>Novo item no menu Exportar: <strong>Abrir no Premiere Pro</strong>. Grava o XML onde você escolher e o Premiere abre na hora, convertendo num projeto novo com a timeline sincronizada e a mídia linkada. O projeto nasce ao lado do XML.</li><li>Com mais de um Premiere instalado, o botão usa a versão numerada mais nova; a Beta só entra se for a única.</li></ul>
+</div><div class="rel glass">
   <div class="rel-head"><span class="rel-v">1.1</span>
     <span class="rel-date">15 de setembro de 2026</span></div>
   <h3>Direto para o DaVinci Resolve</h3><ul><li>Novo item no menu Exportar: <strong>Enviar para o DaVinci Resolve</strong>. Com o Resolve aberto, a timeline é montada dentro do projeto que você escolher, na raiz do Media Pool: clipes linkados, uma faixa por câmera, gravadores embaixo, cores da triagem aplicadas e projeto salvo. Sem XML no meio.</li><li>Gravadores poly-WAV (MixPre, Zoom F-series) saem com cada canal na sua própria faixa, com o nome do canal gravado no arquivo.</li><li>Timecode calibrado pelo áudio: em diárias com jam sync, o motor mede se o TC dos aparelhos concorda com o som e passa a usá-lo para posicionar o que não tem fala em comum, como B-roll.</li><li>Correções de fonte: proxies (SUB, Proxy, PRXY) reconhecidos, estrutura de cartão com duas câmeras em pastas CLIP separadas não funde mais as câmeras, gravador identificado pelo serial.</li><li>Ativação de licença corrigida (o 1.0.2 saía sem certificados) e <code>Sincou --diagnostico</code> no Terminal para suporte.</li><li>Requisito de sistema corrigido: macOS 13 Ventura ou mais novo.</li></ul>

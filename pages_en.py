@@ -267,6 +267,14 @@ P = {
     "wn_lede": "Each version and what it brought. Fixes worth noting are here "
                "too.",
     "wn_releases": [
+        ("1.1.1", "September 15, 2026", "Open in Premiere Pro", [
+            "New Export menu item: <strong>Open in Premiere Pro</strong>. Saves "
+            "the XML where you choose and Premiere opens it right away, "
+            "converting it into a new project with the synced timeline and "
+            "media linked. The project is created next to the XML.",
+            "With more than one Premiere installed, the button uses the newest "
+            "numbered version; the Beta only if it is the only one.",
+        ]),
         ("1.1", "September 15, 2026", "Straight into DaVinci Resolve", [
             "New Export menu item: <strong>Send to DaVinci Resolve</strong>. "
             "With Resolve open, the timeline is built inside the project you "
