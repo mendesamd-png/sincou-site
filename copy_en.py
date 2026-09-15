@@ -39,7 +39,7 @@ T = {
     "foot_product": "Product",
     "foot_legal": "Legal",
     "foot_contact": "Contact",
-    "foot_req": "macOS 11 Big Sur or later · Apple Silicon and Intel · "
+    "foot_req": "macOS 13 Ventura or later · Apple Silicon and Intel · "
                 "Windows version in development",
     "made_in": "Made in Brazil",
 
@@ -56,7 +56,7 @@ T = {
                  "arrives organized, each camera on its own track, ready to cut.",
     "hero_cta": "Download for Mac",
     "hero_cta2": "See how it works",
-    "hero_note": "macOS 11+ · Apple Silicon and Intel · nothing else to install",
+    "hero_note": "macOS 13+ · Apple Silicon and Intel · nothing else to install",
     "hero_versao": "Version {v} · {d}",
     "stage_clips": "242 clips",
     "stage_srcs": "2 cameras · 2 recorders",
@@ -319,5 +319,5 @@ T = {
     "close_h2": "Your next shoot day can start already assembled.",
     "close_lede": "Download it, drop the folders, and watch the footage fall "
                   "into place.",
-    "close_note": "7 days fully unlocked · macOS 11+",
+    "close_note": "7 days fully unlocked · macOS 13+",
 }

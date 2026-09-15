@@ -52,7 +52,7 @@ T = {
     "foot_product": "Producto",
     "foot_legal": "Legal",
     "foot_contact": "Contacto",
-    "foot_req": "macOS 11 Big Sur o superior · Apple Silicon e Intel · "
+    "foot_req": "macOS 13 Ventura o superior · Apple Silicon e Intel · "
                 "versión para Windows en desarrollo",
     "made_in": "Hecho en Brasil",
 
@@ -70,7 +70,7 @@ T = {
                  "para cortar.",
     "hero_cta": "Descargar para Mac",
     "hero_cta2": "Ver el paso a paso",
-    "hero_note": "macOS 11+ · Apple Silicon e Intel · nada más que instalar",
+    "hero_note": "macOS 13+ · Apple Silicon e Intel · nada más que instalar",
     "hero_versao": "Versión {v} · {d}",
     "stage_clips": "242 clips",
     "stage_srcs": "2 cámaras · 2 grabadoras",
@@ -339,5 +339,5 @@ T = {
     "close_h2": "La próxima jornada puede empezar ya montada.",
     "close_lede": "Descarga, suelta las carpetas y mira cómo el material "
                   "encaja.",
-    "close_note": "7 días con todo desbloqueado · macOS 11+",
+    "close_note": "7 días con todo desbloqueado · macOS 13+",
 }

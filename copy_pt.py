@@ -48,7 +48,7 @@ T = {
     "foot_product": "Produto",
     "foot_legal": "Legal",
     "foot_contact": "Contato",
-    "foot_req": "macOS 11 Big Sur ou superior · Apple Silicon e Intel · "
+    "foot_req": "macOS 13 Ventura ou superior · Apple Silicon e Intel · "
                 "versão para Windows em desenvolvimento",
     "made_in": "Feito no Brasil",
 
@@ -69,7 +69,7 @@ T = {
     # Versao e data no hero pela mesma razao que o concorrente faz: num
     # produto de uma pessoa so, a duvida silenciosa de quem chega e "isto
     # ainda e mantido?". Uma data recente responde antes da pergunta.
-    "hero_note": "macOS 11+ · Apple Silicon e Intel · nada a instalar além dele",
+    "hero_note": "macOS 13+ · Apple Silicon e Intel · nada a instalar além dele",
     "hero_versao": "Versão {v} · {d}",
     "stage_clips": "242 clipes",
     "stage_srcs": "2 câmeras · 2 gravadores",
@@ -331,5 +331,5 @@ T = {
 
     "close_h2": "A próxima diária pode começar já montada.",
     "close_lede": "Baixe, solte as pastas e veja o material se encaixar.",
-    "close_note": "7 dias com tudo liberado · macOS 11+",
+    "close_note": "7 dias com tudo liberado · macOS 13+",
 }
