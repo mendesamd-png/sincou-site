@@ -285,6 +285,31 @@ P = {
     "wn_lede": "Cada versión y lo que trajo. Las correcciones que merecen "
                "nota también están aquí.",
     "wn_releases": [
+        ("1.2", "2 de octubre de 2026", "Una capa por cámara", [
+            "<strong>Una capa por carpeta.</strong> Arrastra la carpeta de cada "
+            "cámara y la del audio: cada una se convierte en una sola capa, con "
+            "todas sus tarjetas una al lado de la otra, en vez de una pista por "
+            "tarjeta. Suelta una carpeta sobre una capa para añadir otra tarjeta "
+            "a esa cámara. Las pistas llevan el nombre de la carpeta, en la app "
+            "y en Resolve.",
+            "<strong>Carpetas en DaVinci Resolve.</strong> El importador de XML "
+            "de Resolve ignora las carpetas y deja el material suelto. El nuevo "
+            "elemento <em>Organizar carpetas en Resolve</em> crea las carpetas "
+            "de cámara y tarjeta en el proyecto abierto, sin tocar las líneas "
+            "de tiempo. Y <em>Enviar a Resolve</em> ya importa organizado.",
+            "<strong>Código de tiempo sin jam sync.</strong> En cámaras con "
+            "reloj de hora del día, que reinician unos segundos desfasadas tras "
+            "cada cambio de batería, el código de tiempo podía descartar una "
+            "correlación de audio correcta o colocar un clip a segundos de su "
+            "lugar. Ahora en esos casos solo confirma la hora del día; el "
+            "cuadro lo decide el sonido.",
+            "Los archivos con el mismo nombre en tarjetas distintas ya no se "
+            "confunden con original y proxy: quedaban fuera tomas reales.",
+            "Las correlaciones con pocos segundos de solapamiento (claqueta "
+            "con claqueta) ya no vencen a las que comparten minutos de audio.",
+            "Una cámara que grabó sin audio se avisa por su nombre, en vez de "
+            "aparecer solo como fuera de sincronía.",
+        ]),
         ("1.1.1", "15 de septiembre de 2026", "Abrir en Premiere Pro", [
             "Nuevo elemento del menú Exportar: <strong>Abrir en Premiere "
             "Pro</strong>. Guarda el XML donde elijas y Premiere lo abre al "

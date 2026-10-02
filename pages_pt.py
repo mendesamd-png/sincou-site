@@ -268,6 +268,29 @@ P = {
     "wn_lede": "Cada versão e o que ela trouxe. As correções que valem nota "
                "estão aqui também.",
     "wn_releases": [
+        ("1.2", "2 de outubro de 2026", "Uma camada por câmera", [
+            "<strong>Uma camada por pasta.</strong> Arraste a pasta de cada "
+            "câmera e a do áudio: cada uma vira uma camada só, com todos os "
+            "cartões lado a lado, em vez de uma faixa por cartão. Solte uma "
+            "pasta em cima de uma camada para acrescentar outro cartão àquela "
+            "câmera. As faixas levam o nome da pasta, no app e no Resolve.",
+            "<strong>Pastas no DaVinci Resolve.</strong> O importador de XML do "
+            "Resolve ignora as pastas e deixa a mídia solta. Novo item "
+            "<em>Organizar pastas no Resolve</em> cria as pastas de câmera e "
+            "cartão no projeto aberto, sem tocar nas timelines. E o "
+            "<em>Enviar para o Resolve</em> já importa organizado.",
+            "<strong>Timecode sem jam sync.</strong> Em câmeras com relógio de "
+            "hora do dia, que religam alguns segundos fora a cada troca de "
+            "bateria, o timecode podia derrubar uma correlação de áudio certa "
+            "ou posicionar um clipe segundos fora do lugar. Agora ele só "
+            "confere a hora do dia nesses casos; quem decide o quadro é o som.",
+            "Arquivos com o mesmo nome em cartões diferentes não são mais "
+            "confundidos com bruto e proxy: takes reais deixavam de entrar.",
+            "Correlações com poucos segundos de sobreposição (claquete com "
+            "claquete) não vencem mais as que têm minutos de áudio em comum.",
+            "Câmera que gravou sem áudio é avisada pelo nome, em vez de só "
+            "aparecer como fora do sync.",
+        ]),
         ("1.1.1", "15 de setembro de 2026", "Abrir no Premiere Pro", [
             "Novo item no menu Exportar: <strong>Abrir no Premiere Pro</strong>. "
             "Grava o XML onde você escolher e o Premiere abre na hora, "
